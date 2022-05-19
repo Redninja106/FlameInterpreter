@@ -1,0 +1,20 @@
+﻿func add(int a, int b)
+{
+	return a + b;
+}
+
+func sub(int a, int b)
+{
+	if (a - b) {
+		return 1;
+	}
+	if (b - a) {
+		return -1;
+	}
+}
+
+add(1, 4);
+add(123, 321);
+sub(10, 5);
+sub(3, 7);
+print(1+2);
